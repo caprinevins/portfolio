@@ -1,0 +1,19 @@
+img {
+  width:20em;
+  height:15em;
+}
+
+h1 {
+  font-size: 7em;
+    text-align: center;
+}
+
+h2 {
+  font-size: 4em;
+    text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+

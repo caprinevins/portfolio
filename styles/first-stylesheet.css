@@ -5,17 +5,29 @@ img {
 
 h1 {
   font-size: 7em;
-    text-align: center;
+  text-align: center;
+  color:darkred;
 }
 
 h2 {
   font-size: 4em;
-    text-align: center;
+  text-align: center;
+  color:purple;
 }
 
 body {
   font-family: sans-serif;
+  color: aliceblue;
   background-image: url(paris-seine.jpg);
   background-size: cover;
 }
-
+li {
+  color:aliceblue;
+}
+a {
+  color:floralwhite
+}
+#home-link {
+  color:aqua;
+  text-align: center;
+}

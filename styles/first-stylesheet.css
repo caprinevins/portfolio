@@ -1,5 +1,9 @@
+html {
+  font-size: 16px;
+}
+
 h1 {
-  font-size: 7rem;
+  font-size: 5em;
   text-align: center;
   color:darkred;
   display:block;
@@ -8,20 +12,31 @@ h1 {
 }
 
 nav {
-  display: inline-block;
+  display: block;
   color: aliceblue;
   display: inline-block;
   font-size: 2rem;
   padding: 1rem;
   border-color:dimgray;
   width: auto;
+  font-family: 'oswald', sans-serif;
 }
 
+ul {
+  /*list-style-type: none;*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+h.headerthree {
+  font-family: cursive;
+}
 h2 {
-  font-size: 4rem;
+  font-size: 2.5em;
   text-align: center;
   color:purple;
-  font-family: 'source sans pro', sans-serif;
 }
 
 a #duck-link {
@@ -38,13 +53,6 @@ body {
   font-size: 2em;
 }
 
-ul {
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
 
 li a:hover {
     background-color: #111;

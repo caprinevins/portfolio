@@ -1,12 +1,3 @@
-img {
-  width:20rem;
-  padding: 2oem;
-  border: 20em;
-  border-color: aliceblue;
-  margin: auto;
-  height:15rem;
-}
-
 h1 {
   font-size: 7rem;
   text-align: center;
@@ -16,6 +7,16 @@ h1 {
   font-family: 'source sans pro', sans-serif;
 }
 
+nav {
+  display: inline-block;
+  color: aliceblue;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
+  border-color:dimgray;
+  width: auto;
+}
+
 h2 {
   font-size: 4rem;
   text-align: center;
@@ -23,6 +24,12 @@ h2 {
   font-family: 'source sans pro', sans-serif;
 }
 
+a #duck-link {
+  padding: 1rem;
+  border: 1rem;
+  border-color: hotpink;
+  margin: 1rem;
+}
 body {
   font-family: sans-serif;
   color: aliceblue;
@@ -49,27 +56,32 @@ li a:hover {
 
 a {
   color: aliceblue;
-  display: inline-block;
+  display: block;
   padding: 10px;
+  clear: both;
 }
 
 article {
+  display:inline-block;
+  clear:right;
+}
+
+img {
+  width:20rem;
+  padding: 2oem;
+  border: 20em;
+  border-color: aliceblue;
+  margin: auto;
+  height:15rem;
   float:left;
 }
+
 footer {
   clear:both;
   text-align: center;
 }
 
-nav {
-  float: right;
-  color: aliceblue;
-  display: inline-block;
-  font-size: 2rem;
-  padding: 1rem;
-  border-color:dimgray;
-  width: auto;
-}
+
 
 header {
   clear:both;

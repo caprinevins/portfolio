@@ -2,49 +2,41 @@ html {
   font-size: 16px;
 }
 
-h1 {
+header {
+  clear:both;
+}
+
+#title {
   font-size: 5em;
   text-align: center;
-  color:darkred;
   display:block;
   padding: 10px;
   font-family: 'source sans pro', sans-serif;
 }
 
 nav {
-  display: block;
   color: aliceblue;
   display: inline-block;
-  font-size: 2rem;
-  padding: 1rem;
-  border-color:dimgray;
+  font-size: 1em;
+  padding: 1em;
   width: auto;
   font-family: 'oswald', sans-serif;
 }
 
-ul {
-  /*list-style-type: none;*/
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+li a:hover {
+    background-color: #111;
 }
 
-h.headerthree {
-  font-family: cursive;
+#headerthree {
+  background-color: deeppink;
 }
+
 h2 {
   font-size: 2.5em;
   text-align: center;
   color:purple;
 }
 
-a #duck-link {
-  padding: 1rem;
-  border: 1rem;
-  border-color: hotpink;
-  margin: 1rem;
-}
 body {
   font-family: sans-serif;
   color: aliceblue;
@@ -53,19 +45,9 @@ body {
   font-size: 2em;
 }
 
-
-li a:hover {
-    background-color: #111;
-}
-
-.active {
-  background-color: darkslateblue
-}
-
 a {
   color: aliceblue;
   display: block;
-  padding: 10px;
   clear: both;
 }
 
@@ -87,12 +69,6 @@ img {
 footer {
   clear:both;
   text-align: center;
-}
-
-
-
-header {
-  clear:both;
 }
 
 p {

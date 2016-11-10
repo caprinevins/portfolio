@@ -27,14 +27,17 @@ li a:hover {
     background-color: #111;
 }
 
-#headerthree {
-  background-color: deeppink;
-}
-
 h2 {
   font-size: 2.5em;
   text-align: center;
   color:purple;
+}
+
+
+fa {
+  display: block;
+  margin: auto;
+  font-size: 2em;
 }
 
 body {
@@ -58,7 +61,7 @@ article {
 
 img {
   width:20rem;
-  padding: 2oem;
+  padding: 2rem;
   border: 20em;
   border-color: aliceblue;
   margin: auto;
@@ -71,8 +74,13 @@ footer {
   text-align: center;
 }
 
+#projects {
+  clear:both;
+}
+
 p {
   font-family: 'oswald', sans-serif;
+  padding: 1rem;
 }
 
 /*#home-link {

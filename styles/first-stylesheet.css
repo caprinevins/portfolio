@@ -13,12 +13,14 @@ h1 {
   color:darkred;
   display:block;
   padding: 10px;
+  font-family: 'source sans pro', sans-serif;
 }
 
 h2 {
   font-size: 4rem;
   text-align: center;
   color:purple;
+  font-family: 'source sans pro', sans-serif;
 }
 
 body {
@@ -26,6 +28,7 @@ body {
   color: aliceblue;
   background-image: url(paris-seine.jpg);
   background-size: cover;
+  font-size: 2em;
 }
 
 ul {
@@ -34,12 +37,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
-
-li {
-  color: aliceblue;
-  display: inline-block;
-  font-size: 2rem;
 }
 
 li a:hover {
@@ -52,16 +49,34 @@ li a:hover {
 
 a {
   color: aliceblue;
-  display: block;
+  display: inline-block;
   padding: 10px;
 }
 
-small {
-  
+article {
+  float:left;
+}
+footer {
+  clear:both;
+  text-align: center;
 }
 
-footer {
-  text-align: center;
+nav {
+  float: right;
+  color: aliceblue;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
+  border-color:dimgray;
+  width: auto;
+}
+
+header {
+  clear:both;
+}
+
+p {
+  font-family: 'oswald', sans-serif;
 }
 
 /*#home-link {
@@ -87,4 +102,10 @@ footer {
     border: 5px solid blue;
     padding: 25px;
     margin: 25px;  
+}*/
+
+/*li {
+  color: aliceblue;
+  display: inline-block;
+  font-size: 2rem;
 }*/

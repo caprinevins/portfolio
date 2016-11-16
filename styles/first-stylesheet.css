@@ -46,6 +46,7 @@ h3 {
   padding: 2rem;
   border: 20em;
   text-decoration: underline;
+  clear:both;
 }
 
 fa {
@@ -75,7 +76,7 @@ article {
 
 p {
   font-family: 'oswald', sans-serif;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 #ducks {
@@ -94,6 +95,10 @@ img {
   margin: auto;
   height:15rem;
   float:left;
+}
+
+img:hover {
+  background:red;
 }
 
 footer {

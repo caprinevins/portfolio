@@ -27,7 +27,7 @@ li a:hover {
     background-color: #111;
 }
 
-li {
+.link {
   display: inline-block;
   list-style: none;
   width: auto;
@@ -47,12 +47,6 @@ h3 {
   text-decoration: underline;
   clear:both;
 }
-
-/*fa {
-  display: block;
-  margin: auto;
-  font-size: 2em;
-}*/
 
 body {
   font-family: sans-serif;
@@ -97,6 +91,7 @@ img {
   width:20rem;
   padding-top: 2rem;
   padding-right: 4rem;
+  padding-bottom: 2rem;
   border: 20em;
   border-color: aliceblue;
   margin: auto;
@@ -104,22 +99,36 @@ img {
   float:left;
 }
 
+.design-link:nth-child(odd) {
+  background-color: lightcoral;
+  color: black;
+}
+
 img:hover {
   transform: scale(4,4);
 }
 
+hr {
+  clear: both;
+}
 footer {
   clear:both;
   text-align: center;
-  
 }
 
-.dataimage {
-  transform: rotateY(250deg);
-}
-i {
+.fa-linkedin-square {
   position:fixed;
   bottom: 5%;
   right: 5%;
   border: 1px solid white;
+}
+
+.fa-github {
+  position:fixed;
+  bottom: 9%;
+  right: 5%;
+  border: 1px solid white;
+}
+i:hover {
+  transform: scale(3,3);
 }

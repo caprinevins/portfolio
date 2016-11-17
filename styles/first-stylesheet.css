@@ -1,5 +1,5 @@
 html {
-  font-size: 12px;
+  font-size: 8px;
 }
 
 header {
@@ -36,14 +36,13 @@ li {
 }
 
 h2 {
-  font-size: 2.5em;
-  text-align: center;
-  color:purple;
+  font-size: 3em;
+  text-align: left;
+  color:white;
 }
 
 h3 {
-  font-size: 3em;
-  padding: 2rem;
+  font-size: 2.5em;
   border: 20em;
   text-decoration: underline;
   clear:both;
@@ -69,6 +68,10 @@ a {
   clear: both;
 }
 
+main {
+  padding: 3%;
+  margin: 1%;
+}
 article {
   display:inline-block;
   clear:right;
@@ -76,7 +79,6 @@ article {
 
 p {
   font-family: 'oswald', sans-serif;
-  padding: 2rem;
 }
 
 #ducks {
@@ -89,7 +91,8 @@ p {
 
 img {
   width:20rem;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 4rem;
   border: 20em;
   border-color: aliceblue;
   margin: auto;
@@ -99,13 +102,16 @@ img {
 
 img:hover {
   background:red;
+  transform: scale(2,2);
 }
 
 footer {
   clear:both;
   text-align: center;
 }
-
+i {
+  align-self: center;
+}
 
 /*#home-link {
   background-color: lightgrey;

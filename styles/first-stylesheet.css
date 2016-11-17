@@ -104,6 +104,10 @@ img {
   color: black;
 }
 
+.aboutme-li:nth-child(odd) {
+  color:black;
+  background-color:aliceblue;
+}
 img:hover {
   transform: scale(4,4);
 }

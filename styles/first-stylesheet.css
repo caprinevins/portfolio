@@ -8,30 +8,32 @@ header {
 
 #title {
   font-size: 5em;
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   display:block;
   padding: 5px;
   font-family: 'source sans pro', sans-serif;
 }
 
-nav {
+//*nav {
   color: aliceblue;
   display: inline-block;
   text-align: center;
   font-size: 2em;
   width: auto;
   font-family: 'source sans pro', sans-serif;
-}
+}*//
 
 li a:hover {
     background-color: #111;
 }
 
-.link {
+li {
   display: inline-block;
+  text-align: center;
   list-style: none;
   width: auto;
-  padding: 2rem;
+  padding: 1em;
   border: 20em;
 }
 

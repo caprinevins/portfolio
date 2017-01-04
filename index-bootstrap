@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Coiny|Oswald|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+  <script src="https://use.fontawesome.com/3daa984c6c.js"></script>
+  <title>Caprinevins Portfolio</title></head>
+<header>
+    <h1 id="title"><a href="https://www.linkedin.com/in/drew-nevins-b7333567">Drew Nevins</a></h1>
+    <nav>
+      <ul>
+        <li id="home" class="link"><a href="index.html">Home</a></li>
+        <li id="Design" class="link"><a href="design.html">Design</a></li>
+        <li id="Data" class="link"><a href="data.html">Data</a></li>
+        <li id="github" class="link"><a href="https://github.com/caprinevins">GitHub</a></li>
+        <li id="about" class="link"><a href="aboutme.html">About</a></li>
+       </ul></nav></header>
+  <hr>
+<main>
+<article>
+  <h2>Hey there!</h2>
+  <h3>My portfolio is still under construction</h3>
+    <p>But feel free to take a look around!</p>
+</article>
+
+</main>
+<hr>
+<footer>
+
+</footer>
+<a href="https://www.linkedin.com/in/drew-nevins-b7333567"> 
+    <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/in/drew-nevins-b7333567"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+</html>

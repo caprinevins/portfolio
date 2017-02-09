@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Winter Scarves</title>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- replace with your personal Font Awesome CDN link -->
+  <script src="https://use.fontawesome.com/???.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Hats</a></li>
+        <li><a href="#">Gloves</a></li>
+        <li><a href="#">Scarves</a></li>
+        <li class="cart-info">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </nav>
+
+    <h1>Winter Wear Warehouse</h1>
+  </header>
+
+  <aside>
+    <form>
+      <label>Filter By:
+        <select name="filter">
+          <option value="">Choose One</option>
+          <option value="price">Price</option>
+          <option value="name">Name</option>
+        </select>
+      </label>
+
+      <input type="submit" value="Sort">
+    </form>
+  </aside>
+
+  <section>
+    <h2>Scarves</h2>
+
+    <div class="item-container">
+      <div class="item">
+        <div class="item-name">
+          <h1>Reversible Plaid</h1>
+        </div>
+        <div class="item-price">
+          <h3>$26.99</h3>
+        </div>
+        <div class="item-image">
+          <img src="#"
+        </div>
+        <div class="item-description">
+          <p>"Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic."</p>
+        </div>
+      </div>
+    </div>
+      <p>This javascript will go through each object in the products array and log name and price in the console.</p>
+      <code>
+        for (var i = 0; i <= products.length; i++){
+            var obj = products[i]
+            console.log(obj.name, obj.price)
+        }
+      </code>
+        
+  </section>
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

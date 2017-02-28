@@ -1,0 +1,50 @@
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  background-color: cadetblue;
+  font-family: fantasy;
+  color:crimson;
+}
+
+.nav {
+  background-color: aqua;
+}
+
+.item-container {
+  display: flex;
+  background-color: salmon;
+  padding: 2.5%;
+}
+
+section {
+  background-color: cornflowerblue;
+  border: 1.5%;
+  padding: .5%;
+}
+
+body {
+  font-family:fantasy;
+  font-size: 100%;
+  padding: 2.5%
+}
+
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size 1.4em;
+}
+
+h3 {
+  font-size 1.2em;
+}
+
+.item-image {
+  max-width: 100%;
+}
+
+.item-price {
+  font-family: sans-serif;
+}
+

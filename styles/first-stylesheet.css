@@ -1,3 +1,5 @@
+
+
 img, embed, object, video {
   max-width: 100%
 }
@@ -13,9 +15,18 @@ html {
   justify-content: center;
   align-items: center;
   align-content: center;
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 16px;
 }
 
-.header {
+body {
+  background-image: url(paris-seine.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+header {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -25,12 +36,19 @@ html {
 }
 
 .title {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+#title {
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding: .25em;
 }
 
 .nav {
@@ -40,14 +58,6 @@ html {
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-#title {
-  font-size: 5em;
-  font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  display:block;
-  padding: 5px;
-  font-family: 'source sans pro', sans-serif;
 }
 
 li a:hover {
@@ -59,8 +69,29 @@ li {
   text-align: center;
   list-style: none;
   width: auto;
-  padding: 1em;
+  padding: 2em;
   border: 20em;
+}
+
+.main {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 1%;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: cornflowerblue;
+  opacity: .7;
+  padding: 3em;
+  flex: 1
+}
+
+p {
+  font-family: 'rubik', sans-serif;
 }
 
 h2 {
@@ -76,37 +107,9 @@ h3 {
   clear:both;
 }
 
-body {
-  font-family: sans-serif;
-  color: aliceblue;
-  background-image: url(paris-seine.jpg);
-  background-size: cover;
-  font-size: 2em;
-}
-
 a {
   color: aliceblue;
-  display: block;
-  clear: both;
 }
-
-main {
-  padding-left: 10%;
-  padding-right: 10%;
-  margin: 1%;
-}
-article {
-  display:inline-block;
-  clear:right;
-}
-
-.aboutme {
-  background-color: rgba(255, 0, 0, 0.3);
-}
-p {
-  font-family: 'rubik', sans-serif;
-}
-
 
 .design-link:nth-child(odd) {
   background-color: lightcoral;
@@ -117,13 +120,11 @@ p {
   color:black;
   background-color:aliceblue;
 }
+
 img:hover {
   transform: scale(4,4);
 }
 
-hr {
-  clear: both;
-}
 footer {
   clear:both;
   text-align: center;
@@ -145,3 +146,4 @@ footer {
 i:hover {
   transform: scale(3,3);
 }
+
